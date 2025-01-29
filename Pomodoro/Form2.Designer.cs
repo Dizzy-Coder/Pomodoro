@@ -62,7 +62,7 @@
             FormBorderStyle = FormBorderStyle.FixedToolWindow;
             MaximizeBox = false;
             Name = "Form2";
-            Text = "Form2";
+            Text = "Pomodoro";
             Load += Form2_Load;
             ResumeLayout(false);
             PerformLayout();
