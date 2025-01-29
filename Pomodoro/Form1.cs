@@ -17,10 +17,12 @@ namespace Pomodoro
             string brk = textBox2.Text;
             string sess = textBox3.Text;
 
-            this.Hide();
             Form2 f2 = new Form2(sess.ToString(), brk.ToString(), duration.ToString());
+            f2.FormClosed += (s, args) => Application.Exit();
             f2.Show();
-          
+
+            this.Hide();
+
         }
         
     }

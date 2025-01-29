@@ -56,9 +56,11 @@
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = SystemColors.ActiveCaptionText;
             ClientSize = new Size(204, 73);
             Controls.Add(sessionLabel);
             Controls.Add(clock);
+            ForeColor = SystemColors.Window;
             FormBorderStyle = FormBorderStyle.FixedToolWindow;
             MaximizeBox = false;
             Name = "Form2";

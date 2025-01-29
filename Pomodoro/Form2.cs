@@ -40,7 +40,7 @@ namespace Pomodoro
                     mn--;  // Decrease minutes if seconds go below 0
                     if (mn >= 0)
                     {
-                        sc = 5;  // Reset seconds to 59 when a minute is subtracted
+                        sc = 59;  // Reset seconds to 59 when a minute is subtracted
                     }
                 }
 
@@ -77,8 +77,6 @@ namespace Pomodoro
                     {
                         t.Start(); // Restart the timer for the next session
                     }
-
-                    // Update the session label
                     
                 }
 
